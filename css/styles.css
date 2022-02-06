@@ -1,0 +1,124 @@
+body{
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.465em;
+  color: #351F39;
+}
+.top-container{
+  margin:0;
+  background-color: #D9D7F1;
+  color: #1F1D36;
+  position: relative;
+  padding-top: 100px;
+}
+h1{
+  font-size: 5.625rem;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+}
+h2{
+  font-size: 2.05rem;
+  font-weight: normal;
+  color: #1F1D36;
+}
+h3{
+  color: #3F3351;
+}
+.middle-container{
+  background-color: #E7FBBE;
+  margin:0;
+
+}
+.bottom-container{
+  position:relative;
+  top:0;
+  padding: 50px;
+  background-color: #FFCBCB;
+}
+.top-cloud{
+  position:absolute;
+  right: 155px;
+  top: 100px;
+  height: 100px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 100px;
+  top: 300px;
+  height: 100px;
+}
+.mountain{
+  height: 500px;
+}
+.profile{
+  margin :0 auto 100px auto;
+  width:50%;
+  line-height: 1.2;
+}
+.programmer-image{
+  padding:20px;
+  height :250px;
+}
+.skill-row{
+  width:50%;
+  margin :100px auto 100px auto;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.coding-image{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.appdev-image{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.btn {
+  background: #FFFDDE;
+  background-image: -webkit-linear-gradient(top, #FFFDDE, #ffcbcb);
+  background-image: -moz-linear-gradient(top, #FFFDDE, #ffcbcb);
+  background-image: -ms-linear-gradient(top, #FFFDDE, #ffcbcb);
+  background-image: -o-linear-gradient(top, #FFFDDE, #ffcbcb);
+  background-image: linear-gradient(to bottom, #FFFDDE, #ffcbcb);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #3F3351;
+  font-size: 20px;
+  padding: 11px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #FFFDDE;
+  color: #3F3351;
+  text-decoration: none;
+}
+hr{
+  position:relative;
+  left:45%;
+  text-align:center;
+  margin: 0;
+  width: 10%;
+  border: dotted;
+  border-color:#888888;
+  border-width: 10px 0 0 0;
+  border-spacing: 5px;
+}
+.contact-me{
+  margin-top:30px;
+  line-height:1.2;
+}
+a{
+  color:#1F1D36;
+  margin : 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#FFFDDE;
+}
